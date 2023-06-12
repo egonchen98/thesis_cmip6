@@ -1,0 +1,7 @@
+{
+  "arid_spring_maize": {
+    "start_date": "2023-04-15",
+    "kc_ini": 0.3, "kc_mid": 1.2, "kc_end": 0.6, "h": 2,
+    "days_ini": 25, "days_dev": 40, "days_mid": 45, "days_late": 30
+  }
+}

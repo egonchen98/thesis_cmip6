@@ -1,0 +1,2 @@
+
+acccmip6 -o D -m SAM0-UNICON -e historical -f day -v tas -rlzn 1 -skip 1p2,1f2 -yr -65 -dir ./

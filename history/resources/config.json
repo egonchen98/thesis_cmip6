@@ -1,0 +1,6 @@
+{
+  "origin_data_dir": "F:/cy/Database/ChinaStation/中国国家级地面气象站基本气象要素日值数据集（V3.0）SURF_CLI_CHN_MUL_DAY_V3.0/datasets/0_origin_data",
+  "merged_data_dir": "F:/cy/Database/ChinaStation/中国国家级地面气象站基本气象要素日值数据集（V3.0）SURF_CLI_CHN_MUL_DAY_V3.0/datasets/1_merge_parameter_data",
+  "preprocess_data_dir": "F:/cy/Database/ChinaStation/中国国家级地面气象站基本气象要素日值数据集（V3.0）SURF_CLI_CHN_MUL_DAY_V3.0/datasets/2_preprocess_data",
+  "result_data_dir": "F:/cy/Database/ChinaStation/中国国家级地面气象站基本气象要素日值数据集（V3.0）SURF_CLI_CHN_MUL_DAY_V3.0/datasets/3_result_data"
+}

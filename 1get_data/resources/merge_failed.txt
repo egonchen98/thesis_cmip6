@@ -1,0 +1,1 @@
+[Errno -101] NetCDF: HDF error: 'F:\\cy\\Database\\CMIP6\\0_cn_nc\\hurs_day_CMCC-ESM2_ssp245_r1i1p1f1_gn_20150101-20391231.nc'

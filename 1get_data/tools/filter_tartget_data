@@ -1,0 +1,27 @@
+import pandas as pd
+import xarray as xr
+import os
+from pathlib import Path
+import shutil
+
+
+def filter_nc_file_by_location(nc_file_path: Path, target_path: Path, location: list):
+    """Filter a nc file by location"""
+    ds = xr.open_dataset(nc_file_path).sel(lat=slice(location[0], location[1]), lon=slice(location[2], location[3]))
+    ds.to_netcdf(target_path)
+
+
+def concat_nc_files_by_time(nc_file_paths: list, target_path: Path):
+    """Concatenate nc files"""
+    ds_lst = [xr.open_dataset(nc_file_path) for nc_file_path in nc_file_paths]
+    ds = xr.concat(ds_lst, dim='time')
+    ds.to_netcdf(target_path)
+
+
+def merge_models(nc_file_paths: list, target_path: Path):
+    """Merge nc files"""
+    ds_lst = [xr.open_dataset(nc_file_path) for nc_file_path in nc_file_paths]
+    ds = xr.merge(ds_lst)
+    ds.to_netcdf(target_path)
+
+
